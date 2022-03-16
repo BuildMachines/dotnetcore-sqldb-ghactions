@@ -20,8 +20,8 @@
       {
         "type": "Microsoft.Resources/resourceGroups",
         "apiVersion": "2019-10-01",
-        "name": "[parameters('rgName')]",
-        "location": "[parameters('rgLocation')]",
+        "name": "[parameters('RG-VSDemo')]",
+        "location": "[parameters('eastus')]",
         "tags": {
           "Note": "subscription level deployment"
         },
